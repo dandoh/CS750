@@ -10,12 +10,20 @@
 <script src="https://remarkjs.com/downloads/remark-latest.min.js">
 </script>
 <script>
+    let isMobile = false;
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        isMobile = true;
+    }
+
     remark.create({
         sourceUrl: 'SLIDE.md',
         highlightStyle: 'atom-one-light',
         countIncrementalSlides: false,
         highlightLines: true,
         // ratio: '16:9'
+        navigation: {
+            scroll: isMobile,
+        }
     });
 </script>
 </body>
