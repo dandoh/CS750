@@ -1,0 +1,59 @@
+/*Import fonts here*/
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:400,700display=swap');*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+
+
+/*Styles for headers*/
+h1, h2, h3, h4 {
+    font-family: "Nunito Sans", sans-serif;
+    color: #D85D29;
+    margin: 0 0 15px 0;
+    line-height: 1.2;
+}
+
+/*Styles for code block*/
+.remark-code {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+/*Styles for inline code*/
+.remark-inline-code {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+/*Styles for slide content*/
+.remark-slide-content {
+    padding: 20px 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    background-color: #F8F8F8;
+}
+
+/*style for slide number*/
+.remark-slide-number {
+    font-size: 20px;
+}
+
+
+.hljs-atom-one-light .hljs {
+    background: #F0F0F0
+}
+
+a {
+    color: rgb(249, 38, 114);
+}
+
+p {
+    margin: 0;
+}
