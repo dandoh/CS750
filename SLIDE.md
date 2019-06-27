@@ -72,6 +72,8 @@ layout: true
 
 # Motivation
 - Many sharing expressions
+--
+
 <div>
 	<img src="images/sharing.svg" alt="" style="">
 </div>
@@ -81,7 +83,11 @@ layout: true
 
 # Motivation
 - Speedup opportunity
+--
+
     - Recognize common expressions
+--
+
     - Schedule evaluation
     
 --
@@ -94,9 +100,17 @@ layout: true
 
 # Goals
 - Encode expressions
+--
+
     - Directed acyclic graph (DAG)
+--
+
 - Identify common sub-expressions
+--
+
     - Hash
+--
+
 - Compute the derivatives (symbolically)
 
 ---
@@ -107,7 +121,11 @@ layout: true
 <div>
     <img src="images/gradf.svg" alt="" style=""/>
 </div>
+--
+
     - Components separate
+--
+
     - How to reason with multidimensional variables?
 
 ---
@@ -115,17 +133,29 @@ layout: true
 # Computing derivatives
 
 - Implicit derivative
+--
+
 <div>
 	<img src="images/df.svg" alt="" style="">
 </div>
+--
+
     - Infinitesimal change
+--
+
     - Directional derivatives?
 
 
+--
+
 - Differential form (1-form)
+--
+
 <div>
 	<img src="images/df.svg" alt="" style="">
 </div>
+--
+
 <div>
 	<img src="images/directional_derivative.svg" alt="" style="">
 </div>
@@ -153,14 +183,22 @@ layout: true
 # Vector
 
 - Element of a vector space
+--
+
 <div>
     <img src="images/vector_space.svg" alt="" style="">
 </div>
 
+--
+
 - Basis
+--
+
 <div>
     <img src="images/basis.svg" alt="" style="">
 </div>
+
+--
 
 - Vector components
 <div>
@@ -186,13 +224,21 @@ layout: true
 
 # Covector
 - Linear functional on vectors
+--
+
 <div>
     <img src="images/alpha_VS.svg" alt="" style="">
 </div>
+--
+
 <div>
     <img src="images/linear_covector.svg" alt="" style="">
 </div>
+--
+
 - Examples
+--
+
 <div>
     <img src="images/example_covectors.svg" alt="" style="">
 </div>
@@ -201,7 +247,11 @@ layout: true
 
 # Covector
 - Function
+--
+
 - Levels set
+--
+
 <div class="flex-row" style="justify-content: center;">
 	<img src="images/covector_draw.svg" alt="" style="">
 </div>
@@ -212,9 +262,13 @@ layout: true
 # Covector 
 
 - Apply to a vector
+--
+
 <div class="flex-row" style="justify-content: center;">
 	<img src="images/compute_function.svg" alt="" style="">
 </div>
+--
+
 - The changing of value following the vector
 
 
@@ -225,6 +279,8 @@ layout: true
 <div>
     <img src="images/dual_vector_space.svg" alt="" style="">
 </div>
+--
+
 - Basis
     <div>
         <img src="images/covector_basis.svg" alt="" style="">
@@ -232,7 +288,11 @@ layout: true
     <div>
         <img src="images/covector_basis_prop.svg" alt="" style="">
     </div>
+--
+
 - Covector components
+--
+
     <div>
         <img src="images/covector_components.svg" alt="" style="">
     </div>
@@ -244,9 +304,13 @@ layout: true
 <div>
     <img src="images/covector_components.svg" alt="" style="">
 </div>
+--
+
 <div>
 	<img src="images/covector_component_visual.svg" alt="" style="width: 100%">
 </div>
+--
+
 - As row
 <div>
 	<img src="images/covector_row.svg" alt="" style="">
@@ -273,10 +337,20 @@ layout: true
 
 # Exterior derivative
 - Tangent space 
+--
+
     - Every point in manifold `M` (care <img src="images/rn.svg" alt="" style=""> only)
+--
+
     - Set of all tangent vectors to the point p
+--
+
     - Form a vector space with <img src="images/r.svg" alt="" style="">
+--
+
     - <img src="images/tpm.svg" alt="" style="">
+--
+
     - <img src="images/isomorphic.svg" alt="" style="">
 
 ---
@@ -296,11 +370,19 @@ layout: true
 ---
 # Exterior derivative
 - Exterior derivative
+--
+
     - Turn *k*-form to *(k+1)*-form
+--
+
     - *k*-form
+--
+
     <div>
     <img src="images/k_form1.svg" alt="" style="">
     </div>
+--
+
     <div>
     <img src="images/k_form2.svg" alt="" style="">
     </div>
@@ -312,6 +394,8 @@ layout: true
 - First exterior derivative (*0*-form to *1*-form)
 <div>
 <img src="images/dop1.svg" alt="" style="">
+--
+
 <img src="images/dop2.svg" alt="" style="">
 </div>
       
@@ -350,17 +434,25 @@ layout: true
 ---
 # 1-form
 - Basis
+--
+
 <div>
 	<img src="images/dxdy.svg" alt="" style="">
 </div>
 - Component
+--
+
 <div>
     <img src="images/covector_components.svg" alt="" style="">
 </div>
+--
+
 - Similarly
 <div>
     <img src="images/similardf.svg" alt="" style="">
 </div>
+--
+
 <div>
     <img src="images/df.svg" alt="" style="">
 </div>
@@ -385,10 +477,20 @@ layout: true
 
 ---
 # Hashed Expression
+--
+
 - Share common subexpressions
+--
+
 - Type-safety 
-- Compute derivatives symbolically
+--
+
+- Compute derivative
+--
+
 - Simplify and group expressions
+--
+
 - Part of the **Coconut** ecosystem
 
 ---
@@ -401,7 +503,6 @@ data Expression d et =
         , exMap :: ExpressionMap 
         }
     deriving (Show, Eq, Ord, Typeable)
-
 -- d: Zero, One, Two, Three
 -- et: R, C, Covector 
 ```
