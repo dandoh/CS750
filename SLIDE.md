@@ -385,13 +385,168 @@ layout: true
 
 ---
 # Hashed Expression
+- Share common subexpressions
 - Type-safety 
-- Share common sub-expressions
 - Compute derivatives symbolically
 - Simplify and group expressions
 - Part of the **Coconut** ecosystem
 
 ---
-# Hashed Expression
+# Types
+
+```haskell
+data Expression d et =
+    Expression
+        { exIndex :: Int 
+        , exMap :: ExpressionMap 
+        }
+    deriving (Show, Eq, Ord, Typeable)
+
+-- d: Zero, One, Two, Three
+-- et: R, C, Covector 
+```
+
+---
+# Types
+
+```haskell
+type Internal = (Shape, Node)
+-- []        --> scalar
+-- [n]       --> 1D with size n
+-- [n, m]    --> 2D with size n × m
+-- [n, m, p] --> 3D with size n × m × p
+type Shape = [Int]
+
+type ExpressionMap = IntMap Internal
+```
+---
+# Types
+
+```haskell
+data Node
+    = Var String
+    | DVar String 
+    | Const Double 
+    | Sum ET Args 
+    | Mul ET Args 
+    | Scale ET Arg Arg
+    | Div Arg Arg
+    ...
+```
+
+---
+# Share common subexpressions
+```haskell
+$ x = var "x"
+Expression 
+    { exIndex = 120
+    , exMap = 
+        fromList [(120,([],Var "x"))]
+    }
+```
+
+---
+# Share common subexpressions
+```haskell
+$ x + x
+Expression 
+    { exIndex = 254577784
+    , exMap = fromList 
+        [ (120,([],Var "x")),
+        , (254577784,([],Sum R [120,120]))
+        ]
+    }
+```
+
+---
+# Share common subexpressions
+```haskell
+$ (x + y) + (x + y)
+Expression
+    { exIndex = 542494359821144
+    , exMap =
+          fromList
+              [ (120, ([], Var "x"))
+              , (121, ([], Var "y"))
+              , (256625675, ([], Sum R [120, 121]))
+              , (542494359821144, 
+                ([], Sum R [256625675, 256625675]))
+              ]
+    }
+```
+
+---
+# Type safety
+- 2 phantom type argument in `Expression`
+    ```haskell
+    data Expression d et =
+        Expression
+            { exIndex :: Int 
+            , exMap :: ExpressionMap 
+            }
+    ```
 
 
+---
+
+# Type safety
+```haskell
+-- | Type representation of 
+-- elements in the 0D, 1D, 2D, 3D, ... grid
+--
+data R
+    deriving (NumType, ElementType, Addable)
+
+data C
+    deriving (NumType, ElementType, Addable)
+
+data Covector
+    deriving (ElementType, Addable)
+```
+
+---
+
+# Type safety
+
+```haskell
+-- | Type representation of dimension
+--
+data Zero
+    deriving (DimensionType)
+
+data One
+    deriving (DimensionType)
+
+data Two
+    deriving (DimensionType)
+
+data Three
+    deriving (DimensionType)
+```
+
+
+---
+
+# Type safety
+- We can then govern which operations are allowed on which kind of expressions, and the returned kind of expression
+    ```haskell
+    (+) :: (Addable et, DimensionType d) 
+        => Expression d et 
+        -> Expression d et 
+        -> Expression d et
+    ```
+    
+---
+    
+# Type safety
+- The exterior derivative
+    ```haskell
+    exteriorDerivative ::
+           (DimensionType d)
+        => Set String
+        -> Expression d R
+        -> Expression d Covector
+    ```
+
+---
+# Demo
