@@ -90,5 +90,43 @@ layout: true
 	<img src="images/codegraph.svg" alt="" style="">
 </div>
 
+---
+
 # Goals
-- 
+- Encode expressions
+    - Directed acyclic graph (DAG)
+- Identify common sub-expressions
+    - Hash
+- Compute the derivatives (symbolically)
+
+---
+
+# Computing derivatives
+
+- Gradient
+<div>
+    <img src="images/gradf.svg" alt="" style=""/>
+</div>
+    - Components separate, inefficient
+    - How to interpret with multidimensional variables?
+
+---
+
+# Computing derivatives
+
+- Implicit derivative
+<div>
+	<img src="images/df.svg" alt="" style="">
+</div>
+    - Directional derivatives
+
+
+- Differential form (1-form)
+<div>
+	<img src="images/df.svg" alt="" style="">
+</div>
+<div>
+	<img src="images/directional_derivative.svg" alt="" style="">
+</div>
+
+
