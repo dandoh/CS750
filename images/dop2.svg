@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="643px" height="96px" viewBox="0 0 643 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>dop2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="dop2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="NunitoSans-Regular, Nunito Sans" font-size="40" font-weight="normal">
+        <text id="Scalar-field" fill="#000000">
+            <tspan x="10" y="45">Scalar field</tspan>
+        </text>
+        <text id="Covector-Field" fill="#000000">
+            <tspan x="382" y="47">Covector Field</tspan>
+        </text>
+    </g>
+</svg>

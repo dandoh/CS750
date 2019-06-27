@@ -269,12 +269,129 @@ layout: true
     </div>
 </div>
     
+---
+
+# Exterior derivative
+- Tangent space 
+    - Every point in manifold `M` (care <img src="images/rn.svg" alt="" style=""> only)
+    - Set of all tangent vectors to the point p
+    - Form a vector space with <img src="images/r.svg" alt="" style="">
+    - <img src="images/tpm.svg" alt="" style="">
+    - <img src="images/isomorphic.svg" alt="" style="">
+
+---
+# Exterior derivative
+- Tangent space
+<div class="flex-row" style="justify-content: center;">
+	<img src="images/sphere.svg" alt="" style="">
+</div>
+
+---
+# Exterior derivative
+- Tangent space
+<div class="flex-row" style="justify-content: center;">
+	<img src="images/r2.svg" alt="" style="">
+</div>
+    
+---
+# Exterior derivative
+- Exterior derivative
+    - Turn *k*-form to *(k+1)*-form
+    - *k*-form
+    <div>
+    <img src="images/k_form1.svg" alt="" style="">
+    </div>
+    <div>
+    <img src="images/k_form2.svg" alt="" style="">
+    </div>
+    
+        
+
+---
+# 1-form
+- First exterior derivative (*0*-form to *1*-form)
+<div>
+<img src="images/dop1.svg" alt="" style="">
+<img src="images/dop2.svg" alt="" style="">
+</div>
+      
+---
+# 1-form
+<div class="flex-row" style="justify-content: center; height: 80%">
+	<img src="images/lvlsets.svg" alt="" style="">
+</div>
+
+---
+# 1-form
+<div class="flex-row" style="justify-content: center; height: 80%">
+	<img src="images/lvlsets2.svg" alt="" style="">
+</div>
+
+---
+# 1-form
+<div class="flex-row" style="justify-content: center; height: 80%">
+	<img src="images/zoom_in.svg" alt="" style="">
+</div>
+
+---
+# 1-form
+<div class="flex-row" style="justify-content: center; height: 80%">
+	<img src="images/zoom_in2.svg" alt="" style="">
+</div>
+
+---
+# 1-form
+- Basis
+<div class="flex-row" style="justify-content: center; height: 80%">
+	<img src="images/dx_basis.svg" alt="" style="">
+</div>
 
 
+---
+# 1-form
+- Basis
+<div>
+	<img src="images/dxdy.svg" alt="" style="">
+</div>
+- Component
+<div>
+    <img src="images/covector_components.svg" alt="" style="">
+</div>
+- Similarly
+<div>
+    <img src="images/similardf.svg" alt="" style="">
+</div>
+<div>
+    <img src="images/df.svg" alt="" style="">
+</div>
 
 
+---
 
+<div style="margin-top: 130px">
+    <h1>
+    Vector, covector, the exterior derivative and Hashed Expression
+    </h1>
+    <div class="horizontal-line"></div>
+    <div class="flex-row" style="justify-content: flex-end; margin-right: 30px"> 
+        <ul class="table-content">
+            <li>Motivation</li>
+            <li>Vector & covector</li>
+            <li >The exterior derivative</li>
+            <li class="table-content-selected">Hashed Expression</li>
+        </ul>
+    </div>
+</div>
 
+---
+# Hashed Expression
+- Type-safety 
+- Share common sub-expressions
+- Compute derivatives symbolically
+- Simplify and group expressions
+- Part of the **Coconut** ecosystem
 
+---
+# Hashed Expression
 
 
