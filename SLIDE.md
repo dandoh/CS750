@@ -2,44 +2,93 @@ layout: true
 
 <img id="logo" src="images/logo.png" alt="McMaster Logo"/>
 
-
 ---
-<div class="col-justify-center">
+
+<div style="margin-top: 130px">
     <h1>
     Vector, covector, the exterior derivative and Hashed Expression
     </h1>
-    <div class="author">Nhan Thai</div>
+    <div class="horizontal-line"></div>
+    <div class="flex-row" style="justify-content: flex-end; margin-right: 30px"> 
+        <ul class="table-content">
+            <li>Motivation</li>
+            <li>Vector & covector</li>
+            <li>The exterior derivative</li>
+            <li>Hashed Expression</li>
+        </ul>
+    </div>
+</div>
+
+---
+
+<div style="margin-top: 130px">
+    <h1>
+    Vector, covector, the exterior derivative and Hashed Expression
+    </h1>
+    <div class="horizontal-line"></div>
+    <div class="flex-row" style="justify-content: flex-end; margin-right: 30px"> 
+        <ul class="table-content">
+            <li class="table-content-selected">Motivation</li>
+            <li>Vector & covector</li>
+            <li>The exterior derivative</li>
+            <li>Hashed Expression</li>
+        </ul>
+    </div>
+</div>
+
+---
+
+# Motivation
+
+- Optimization problems
+--
+
+- The objective function 
+--
+
+<div>
+    <img src="images/fxy.svg" alt="" style=""/>
+</div>
+--
+
+- The gradient 
+--
+
+<div>
+    <img src="images/dfx.svg" alt="" style=""/>
 </div>
 
 --
+<div>
+    <img src="images/dfy.svg" alt="" style=""/>
+</div>
+
+--
+<div>
+    <img src="images/gradf.svg" alt="" style=""/>
+</div>
 
 ---
 
-## Agenda
-
-- You will be amazed
+# Motivation
+- Many sharing expressions
+<div>
+	<img src="images/sharing.svg" alt="" style="">
+</div>
 --
-
-- What you can achieve
-    - Inner jugging
-- With a little imagination...
-- And the **Markdown**
-
-```haskell
-type Expression = Expression
-data ExpressionMap = Map Int Node
-```
 
 ---
 
-## Introduction
-
-```haskell
-type Expression = Expression
-```
+# Motivation
+- Speedup opportunity
+    - Recognize common expressions
+    - Schedule evaluation
+    
 --
 
-- Hello World
-- This is the type `Expression`
-- This is a link [link here](https://google.com.vn)
+<div class="flex-row" style="justify-content: center">
+	<img src="images/codegraph.svg" alt="" style="">
+</div>
 
+# Goals
+- 
