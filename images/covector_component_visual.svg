@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1157px" height="321px" viewBox="0 0 1157 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>covector_component_visual</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="350" height="321"></rect>
+        <rect id="path-3" x="0" y="0" width="350" height="321"></rect>
+        <rect id="path-5" x="0" y="0" width="350" height="321"></rect>
+    </defs>
+    <g id="covector_component_visual" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)">
+                <g transform="translate(-231.000000, -195.000000)">
+                    <path id="Line" d="M313.5,208.021797 L309.935788,214.358174 L309.690657,214.793962 L308.819082,214.303701 L309.064212,213.867913 L313.564212,205.867913 L314,205.093179 L314.435788,205.867913 L318.935788,213.867913 L319.180918,214.303701 L318.309343,214.793962 L318.064212,214.358174 L314.5,208.021797 L314.5,214.113043 L314.5,505.5 L314.5,506 L313.5,506 L313.5,505.5 L313.5,214.113043 L313.5,208.021797 Z" stroke="none" fill="#979797" fill-rule="nonzero"></path>
+                    <path id="Line" d="M558.990547,442.999501 L552.655434,439.433042 L552.219733,439.187757 L552.710303,438.316355 L553.146004,438.56164 L561.144408,443.064476 L561.918987,443.500539 L561.144099,443.936052 L553.142504,448.433215 L552.706629,448.678191 L552.216677,447.806442 L552.652552,447.561466 L558.990192,443.9995 L552.899296,443.997341 L238.499823,443.88587 L237.999823,443.885692 L238.000177,442.885692 L238.500177,442.88587 L552.89965,442.997341 L558.990547,442.999501 Z" stroke="none" fill="#979797" fill-rule="nonzero"></path>
+                    <path d="M85,0 L452.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M42,0 L409.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M-2.84217094e-14,0 L367.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M132,0 L499.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M182,0 L549.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M232,0 L599.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M282,0 L649.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M332,0 L699.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M562,0 L929.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M382,0 L749.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M432,0 L799.092075,710.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Group" transform="translate(406.000000, 0.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-4)">
+                <g transform="translate(-8.000000, -120.000000)">
+                    <path id="Line" d="M90.5,133.021797 L86.9357878,139.358174 L86.6906571,139.793962 L85.8190816,139.303701 L86.0642122,138.867913 L90.5642122,130.867913 L91,130.093179 L91.4357878,130.867913 L95.9357878,138.867913 L96.1809184,139.303701 L95.3093429,139.793962 L95.0642122,139.358174 L91.5,133.021797 L91.5,139.113043 L91.5,430.5 L91.5,431 L90.5,431 L90.5,430.5 L90.5,139.113043 L90.5,133.021797 Z" stroke="none" fill="#979797" fill-rule="nonzero"></path>
+                    <path d="M91.0920753,0.91563686 L91.0920753,635.804761" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M1.09207528,120 L1.09207528,754.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M180.092075,120 L180.092075,754.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M271.092075,120 L271.092075,754.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path d="M361.092075,120 L361.092075,754.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                    <path id="Line" d="M335.990547,367.999501 L329.655434,364.433042 L329.219733,364.187757 L329.710303,363.316355 L330.146004,363.56164 L338.144408,368.064476 L338.918987,368.500539 L338.144099,368.936052 L330.142504,373.433215 L329.706629,373.678191 L329.216677,372.806442 L329.652552,372.561466 L335.990192,368.9995 L329.899296,368.997341 L15.4998227,368.88587 L14.9998228,368.885692 L15.0001773,367.885692 L15.5001773,367.88587 L329.89965,367.997341 L335.990547,367.999501 Z" stroke="none" fill="#979797" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Group" transform="translate(819.000000, 0.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-6)">
+                <g transform="translate(-218.000000, 11.000000)">
+                    <path id="Line" d="M545.990547,236.999501 L539.655434,233.433042 L539.219733,233.187757 L539.710303,232.316355 L540.146004,232.56164 L548.144408,237.064476 L548.918987,237.500539 L548.144099,237.936052 L540.142504,242.433215 L539.706629,242.678191 L539.216677,241.806442 L539.652552,241.561466 L545.990192,237.9995 L539.899296,237.997341 L225.499823,237.88587 L224.999823,237.885692 L225.000177,236.885692 L225.500177,236.88587 L539.89965,236.997341 L545.990547,236.999501 Z" stroke="none" fill="#979797" fill-rule="nonzero"></path>
+                    <path id="Line" d="M300.5,2.0217968 L296.935788,8.3581741 L296.690657,8.79396187 L295.819082,8.30370063 L296.064212,7.86791286 L300.564212,-0.132087142 L301,-0.906820952 L301.435788,-0.132087142 L305.935788,7.86791286 L306.180918,8.30370063 L305.309343,8.79396187 L305.064212,8.3581741 L301.5,2.0217968 L301.5,8.11304348 L301.5,299.5 L301.5,300 L300.5,300 L300.5,299.5 L300.5,8.11304348 L300.5,2.0217968 Z" stroke="none" fill="#979797" fill-rule="nonzero"></path>
+                    <path d="M318.092075,-80 L318.092075,554.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square" transform="translate(318.092075, 237.444562) rotate(90.000000) translate(-318.092075, -237.444562) "></path>
+                    <path d="M318.092075,-160 L318.092075,474.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square" transform="translate(318.092075, 157.444562) rotate(90.000000) translate(-318.092075, -157.444562) "></path>
+                    <path d="M318.092075,-240 L318.092075,394.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square" transform="translate(318.092075, 77.444562) rotate(90.000000) translate(-318.092075, -77.444562) "></path>
+                    <path d="M318.092075,-310 L318.092075,324.889124" id="Line-2" stroke="#890303" stroke-width="1" fill="none" stroke-linecap="square" transform="translate(318.092075, 7.444562) rotate(90.000000) translate(-318.092075, -7.444562) "></path>
+                </g>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(373.000000, 134.000000)" fill="#000000" font-family="NunitoSans-Regular, Nunito Sans" font-size="40" font-weight="normal">
+            <text id="=-2">
+                <tspan x="0" y="40">= 2 </tspan>
+            </text>
+            <text id="+">
+                <tspan x="392" y="40">+</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
